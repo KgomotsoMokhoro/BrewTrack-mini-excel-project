@@ -287,16 +287,14 @@ This project took an exploratory approach — the goal was to surface patterns i
   Aim for 3–6 insights. Quality over quantity.
 -->
 
-**Insight 1: Regional performance**
-Which region had the highest total sales and which had the highest total profit from your Pivot Table? They may not be the same region.
-**Insight 2: Target performance**
-From your COUNTIF on Sales_Status, how many transactions Met vs Missed the sales target? Same for profit target.
+**Insight 1: Loss transactions are spread evenly across all product types**
+All four product types contribute almost equally to the 140 loss transactions.
+**Insight 2: West leads in sales but Central leads in profit**
+The West region generated the highest total sales at $67,418, yet Central produced the highest profit at $22,901. 
 
-**Insight 3: Product type profitability**
-From your Pivot Table ,which product type had the highest total profit and which had the lowest or negative total profit?
+**Insight 3:  Espresso is the top performer on both sales and profit**
+Espresso leads in total sales ($56,013) and total profit ($17,880), making it the most valuable category to protect and invest in.
 
-**Insight 4 (if applicable): [Short descriptive headline]**
-[What you found + what it suggests.]
 
 ---
 
@@ -323,9 +321,9 @@ From your Pivot Table ,which product type had the highest total profit and which
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
-| High | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
-| Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
+| High | Investigate the cost structure behind the 140 loss transactions | loss distribution by product type | Head of Sales (Thabo) + Finance Team |
+| Medium | Audit the West region's cost structure ,it generates the most revenue but ranks second in profit, suggesting margin is leaking somewhere between sales and the bottom line | West sales vs profit gap | West Regional Sales Manager |
+| Low | Develop a strategy for the South region ,it sits last in both sales and profit and may benefit from a targeted marketing push or product mix adjustment to grow its contribution | regional comparison | South Regional Sales Manager |
 
 
 
