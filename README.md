@@ -179,12 +179,12 @@
 [Output / Visualisation / Reporting]
 ```
 
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
+1. **Source:** Dataset sourced from Kaggle, Coffee Chain Sales dataset. Single CSV file (Coffee_Chain_Sales_.csv) covering October 2012 to September 2014, 1,062 rows and 21 columns across 20 US states and 4 regions.
+2. **Ingestion:** Opened directly in Microsoft Excel. Imported as a flat table and saved as an .xlsx workbook. Raw data preserved on a dedicated Raw_Data sheet with no edits made to the original.
+3. **Cleaning:**  Applied TRIM() to all text columns (State, Product, Market) to remove trailing spaces that would break XLOOKUP and SUMIFS formulas. Renamed the Target_sales column header to remove a trailing space. 
+4. **Transformation:** Created a Profit_Status column using an IF statement to flag each transaction as Profit or Loss. Created a Sales_Status column comparing actual sales against Target_sales. Created a Profit_Status_vs_Target column comparing actual profit against Target_profit. Built a SUMIFS summary table aggregating sales and profit across all 16 region and product type combinations.
+5. **Analysis:** Pivot Tables summarising total sales and profit by region, product type, and time period. SUMIFS manual summary for cross-tabulated region and product type comparison. XLOOKUP product reference tool returning product line, type, and average profit per product. COUNTIF to quantify met vs missed targets. Conditional formatting to visually surface loss rows and missed targets across the full dataset.
+6. **Output:** Single Excel workbook (.xlsx) with six structured sheets — Raw_Data, Clean_Data, Pivot_Analysis, Lookup_Tool, SUMIFS_Summary, and Dashboard.
 
 ---
 
@@ -332,59 +332,8 @@
 | Medium | [Specific, actionable step] | [Insight it comes from] | [Who should act] |
 | Low | [Exploratory or longer-term suggestion] | [Insight it comes from] | [Who should act] |
 
----
 
-## 11. Assumptions & Limitations
 
-<!--
-  WHAT GOOD LOOKS LIKE:
-  Assumption: "Transaction records were assumed to be complete for all five regions.
-               No validation was performed against source system record counts."
-  Limitation: "The analysis cannot distinguish between returns initiated by
-               the customer vs. returns initiated by the business (e.g., recalls).
-               If business-initiated returns are concentrated in Region A, the
-               return rate finding may reflect a policy decision, not a quality issue."
-
-  WHAT TO AVOID:
-  ❌ Leaving this section blank or writing "None known."
-     Every project has limitations. Documenting them is a sign of
-     analytical maturity - not a confession of failure.
--->
-
-### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
-
-### Limitations
-- [What gaps exist in the data?]
-- [What analysis was out of scope but could affect interpretation?]
-- [What would a more rigorous version of this project include?]
-- [Are there known biases in the data source or collection method?]
-
-> *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
-
----
-
-## 12. Future Enhancements
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Automate the monthly data pull from the POS export folder using
-      a scheduled Python script, replacing the current manual process."
-  ✅ "Expand the return rate analysis to include carrier-level data,
-      which was unavailable in this dataset but exists in the logistics system."
-
-  WHAT TO AVOID:
-  ❌ "Add a machine learning model."
-     (Vague, and disconnected from the actual findings of this project.)
-  ❌ Listing aspirational features that don't follow logically from the work.
--->
-
-- [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
-- [ ] [Enhancement 2]
-- [ ] [Enhancement 3]
-- [ ] [Enhancement 4]
 
 ---
 
