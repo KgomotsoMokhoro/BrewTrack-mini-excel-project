@@ -23,13 +23,11 @@
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
-8. [Analysis & Metrics](#8-analysis--metrics)
-9. [Key Insights](#9-key-insights)
-10. [Recommendations](#10-recommendations)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#9-recommendations)
+10. [Deliverables](#10-deliverables)
+11. [Author](#11-author)
 
 ---
 
@@ -119,9 +117,9 @@
 │   ├── processed/            # Cleaned and transformed data
 │   └── external/             # Reference data, lookup tables, third-party files
 │
-├── notebooks/                # Jupyter, R Markdown, or Colab notebooks
+├
 │
-├── scripts/                  # Reusable .py, .R, or .sh processing files
+├
 │
 ├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
 │   ├── exploratory/          # Ad-hoc or investigative queries
@@ -137,9 +135,6 @@
 ├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
 ```
-
-> ⚠️ *Delete folders you didn't use. An empty folder is worse than no folder.*
-> SQL-heavy projects: keep `queries/`. Analysis-only projects: keep `notebooks/`. Both? Keep both.
 
 ---
 
@@ -227,7 +222,7 @@
 
 
 
-## 8. Analysis & Metrics
+## 7. Analysis & Metrics
 
 <!--
   Explain what you measured and how - before you share what you found.
@@ -267,7 +262,7 @@ This project took an exploratory approach — the goal was to surface patterns i
 
 ---
 
-## 9. Key Insights
+## 8. Key Insights
 
 <!--
   Findings + implications. Not just what happened - what it means.
@@ -298,7 +293,7 @@ Espresso leads in total sales ($56,013) and total profit ($17,880), making it th
 
 ---
 
-## 10. Recommendations
+## 9. Recommendations
 
 <!--
   Action-oriented. Addressed to a real audience.
@@ -330,7 +325,7 @@ Espresso leads in total sales ($56,013) and total profit ($17,880), making it th
 
 ---
 
-## 13. Deliverables
+## 10. Deliverables
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
@@ -340,7 +335,7 @@ Espresso leads in total sales ($56,013) and total profit ($17,880), making it th
 
 ---
 
-## 14. Author
+## 11. Author
 
 **Kgomotso Mokhoro**
  BCom: Supply chain Managemnt graduate
