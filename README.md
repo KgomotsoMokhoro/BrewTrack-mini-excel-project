@@ -1,5 +1,5 @@
-# BrewTrack- Excel(pivot tables
-XLOOKUP,SUMIFS,IF statements,Conditional formatting,Data cleaning functions(LEFT, RIGHT, MID, TRIM, TEXT),Basic dashboard creation
+# BrewTrack- Excel(pivot tables XLOOKUP,SUMIFS,IF statements,Conditional formatting)
+
 > I analysed 1,062 coffee chain sales transactions across four US regions to identify loss-making products and regional performance gaps, building a fully Excel-driven dashboard that gives sales leadership a clear, filterable view of where the business is making and losing money
 ---
 
