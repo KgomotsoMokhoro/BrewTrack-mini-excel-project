@@ -215,15 +215,13 @@
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `[field_1]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_2]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `Date` | date | Transaction date | 14-05-2021 |
+| `Market` | string | US region where the sale occurred | Central |
+| `Sales` | int | Actual sales revenue per transaction | 123 |
 
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
-
-*Add additional table blocks as needed for multi-table projects.*
+> **Row count (approx.):** 1062 rows
+> **Date range:** October 2012 – September 2014
+> **Key join / relationship:**  Single flat table
 
 ---
 
