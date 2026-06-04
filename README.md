@@ -55,13 +55,12 @@
   (Too vague. Could describe 10,000 projects. Describes none of them.)
 -->
 
-**Context:** [The business, research, or personal situation that motivated this project.]
+**Context:** BrewTrack Coffee Chain had over 1,000 sales transactions on record spanning two years across four US regions, but no structured way to identify which products were profitable and which were selling at a loss. 
 
-**Problem Statement:** [The specific question or challenge you were addressing.]
+**Problem Statement:** Without a consolidated view, the sales team was making regional investment and product decisions without data to back them up
+**Approach:** I cleaned the raw dataset in Excel, built formula foward analysis using IF statements, SUMIFS, and XLOOKUP.
 
-**Approach:** [In 1–2 sentences - how did you tackle it?]
-
-**Outcome:** [What did you produce or discover?]
+**Outcome:** The result is a single Excel workbook with a dashboard that flags 140 loss-making transactions, compares actual sales and profit against targets, and lets Thabo filter by region, market size, and product type in real time.
 
 ---
 
