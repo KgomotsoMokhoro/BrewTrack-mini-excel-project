@@ -329,7 +329,7 @@ Espresso leads in total sales ($56,013) and total profit ($17,880), making it th
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
-| Dashboard Screenshot | Full-resolution screenshot of the completed Excel dashboard for portfolio and presentation use | `` |
+| Dashboard Screenshot | Full-resolution screenshot of the completed Excel dashboard for portfolio and presentation use | `visuals/Github dashboard.png` |
 | Cleaned Dataset | Cleaned CSV export from the Clean_Data sheet with derived column | `data/processed/BrewTrack_Dashboard.csv` |
 | User Requirements Document | Stakeholder requirements, use cases, data quality checks, and workbook structure plan for the project | `docs/BrewTrack_Excel_URD.docx` |
 
