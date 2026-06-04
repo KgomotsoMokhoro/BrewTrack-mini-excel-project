@@ -287,14 +287,13 @@ This project took an exploratory approach — the goal was to surface patterns i
   Aim for 3–6 insights. Quality over quantity.
 -->
 
-**Insight 1: [Short descriptive headline]**
-[What you found + what it suggests. One short paragraph.]
+**Insight 1: Regional performance**
+Which region had the highest total sales and which had the highest total profit from your Pivot Table? They may not be the same region.
+**Insight 2: Target performance**
+From your COUNTIF on Sales_Status, how many transactions Met vs Missed the sales target? Same for profit target.
 
-**Insight 2: [Short descriptive headline]**
-[What you found + what it suggests.]
-
-**Insight 3: [Short descriptive headline]**
-[What you found + what it suggests.]
+**Insight 3: Product type profitability**
+From your Pivot Table ,which product type had the highest total profit and which had the lowest or negative total profit?
 
 **Insight 4 (if applicable): [Short descriptive headline]**
 [What you found + what it suggests.]
