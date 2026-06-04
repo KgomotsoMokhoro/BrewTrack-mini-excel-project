@@ -19,7 +19,7 @@
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Objectives](#2-objectives)
-3. [Project Scope & Tools](#3-project-scope--tools)
+3. [ Tools](#3-project-scope--tools)
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
@@ -81,38 +81,14 @@
   (These can't fail - which means they can't succeed either.)
 -->
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
-
-> 💡 *Every analysis decision in this project traces back to one of these objectives.*
+- **Primary Objective:**  Build a fully Excel driven sales performance dashboard that enables BrewTrack's sales leadership to identify profitable and loss-making products across regions without leaving a single workbook.
+- **Secondary Objective 1:** Demonstrate core Excel skills in one cohesive project.
+- **Secondary Objective 2:** Flag and quantify the 140 loss-making transactions in the dataset and measure the gap between actual and target performance at both transaction and regional level.
 
 ---
 
-## 3. Project Scope & Tools
+## 3. Tools
 
-### Scope
-
-<!--
-  WHAT GOOD LOOKS LIKE:
-  In Scope: "Transaction-level data for Regions A–E, Jan 2023–Jun 2024.
-             Analysis covers revenue, return rates, and product category performance."
-  Out of Scope: "Customer demographics and marketing spend data were excluded -
-                 demographic data was incomplete for two regions, and marketing
-                 data sits in a separate system outside this engagement."
-
-  WHAT TO AVOID:
-  ❌ Leaving Out of Scope blank. This is the section that protects your credibility.
-     If you don't define the fence, reviewers assume you missed things.
--->
-
-| Dimension | Details |
-|-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
 
 ### Tools & Technologies
 
@@ -123,13 +99,13 @@
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Data Storage | CSV file |
+| Data Processing | Excel |
+| Analysis | Excel queries |
+| Visualization | Excel-Pivotable |
+| Version Control | GitHub |
+| Documentation | GitHub |
+
 
 ---
 
