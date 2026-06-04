@@ -19,7 +19,7 @@
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Objectives](#2-objectives)
-3. [ Tools](#3-project-scope--tools)
+3. [ Tools](#3-Tools)
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
