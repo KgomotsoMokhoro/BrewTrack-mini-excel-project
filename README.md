@@ -248,24 +248,22 @@
 
 ### Analytical Approach
 
-[Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
-
+This project took an exploratory approach — the goal was to surface patterns in two years of sales transaction data that were invisible in raw form. Rather than testing a specific hypothesis upfront, the analysis used Excel formulas and Pivot Tables to progressively group and summarise the data by region, product type, and time period, then layered in target comparisons and loss flagging to identify where performance was breaking down.
 ### Key Metrics Defined
 
 | Metric | Plain-Language Definition | Why It Matters |
 |--------|--------------------------|----------------|
-| `[Metric 1]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 2]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 3]` | [What it measures, in one sentence] | [What decision or question it answers] |
+| `Profit_status` | Whether a transaction recorded a positive or negative profit, flagged using an IF formula | Identifies which transactions are loss-making so the team can investigate the products and regions responsible |
+| `Sales ve Target gap` | Whether actual sales met or missed the transaction-level sales target | Shows how consistently the business is hitting its revenue goals across regions and product types |
+| `Profit vs Target gap` | The difference between actual profit and target profit per transaction | Quantifies the financial underperformance gap, a negative value means the business earned less than planned |
 
 ### Methods Used
 
-- [e.g., Descriptive statistics - distribution, central tendency, outlier detection]
-- [e.g., Trend analysis across [time period]]
-- [e.g., Segmentation / group comparison by [dimension]]
-- [e.g., Correlation analysis between [variable A] and [variable B]]
-- [e.g., SQL window functions for [specific aggregation]]
-- [e.g., Custom aggregation or transformation logic in [tool]]
+- Exploratory data analysis — distribution of profit values to identify negative profit transactions across the dataset
+- Segmentation and group comparison by region, product type, market size, and Regular vs Decaf variant
+- Target vs actual comparison — transaction-level IF formulas measuring sales and profit against budget figures
+- Trend analysis across October 2012 to September 2014 using Sale_Year and Sale_Month in Pivot Tables
+
 
 ---
 
